@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		6C7C08552075D25F00CF4D74 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C08542075D25F00CF4D74 /* main.cpp */; };
+		6C7C085E2075D28900CF4D74 /* LeftistHeapDriver.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 6C7C085D2075D28900CF4D74 /* LeftistHeapDriver.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,13 @@
 /* Begin PBXFileReference section */
 		6C7C08512075D25F00CF4D74 /* prj2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = prj2; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C7C08542075D25F00CF4D74 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		6C7C085B2075D27900CF4D74 /* LeftistNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftistNode.h; sourceTree = "<group>"; };
+		6C7C085C2075D28100CF4D74 /* LeftistHeap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftistHeap.h; sourceTree = "<group>"; };
+		6C7C085D2075D28900CF4D74 /* LeftistHeapDriver.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LeftistHeapDriver.cpp; sourceTree = "<group>"; };
+		6C7C085F2075D29000CF4D74 /* LeftistHeapTester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LeftistHeapTester.h; sourceTree = "<group>"; };
+		6C7C08602075D29C00CF4D74 /* ECE2552.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ECE2552.h; sourceTree = "<group>"; };
+		6C7C08612075D29C00CF4D74 /* Tester.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Tester.h; sourceTree = "<group>"; };
+		6C7C08622075D29C00CF4D74 /* HeapException.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HeapException.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,13 @@
 			isa = PBXGroup;
 			children = (
 				6C7C08542075D25F00CF4D74 /* main.cpp */,
+				6C7C085C2075D28100CF4D74 /* LeftistHeap.h */,
+				6C7C085B2075D27900CF4D74 /* LeftistNode.h */,
+				6C7C085F2075D29000CF4D74 /* LeftistHeapTester.h */,
+				6C7C085D2075D28900CF4D74 /* LeftistHeapDriver.cpp */,
+				6C7C08602075D29C00CF4D74 /* ECE2552.h */,
+				6C7C08622075D29C00CF4D74 /* HeapException.h */,
+				6C7C08612075D29C00CF4D74 /* Tester.h */,
 			);
 			path = prj2;
 			sourceTree = "<group>";
@@ -120,6 +135,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C7C08552075D25F00CF4D74 /* main.cpp in Sources */,
+				6C7C085E2075D28900CF4D74 /* LeftistHeapDriver.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
